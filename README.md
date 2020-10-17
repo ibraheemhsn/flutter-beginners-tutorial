@@ -226,7 +226,7 @@ body: Row(
 ```
   
 for MainAxisAlignment and CrossAxisAlignment 
-![Image of alignment] (https://miro.medium.com/max/700/0*nZsgn53lmVES-h1H)
+![Image of alignment](https://miro.medium.com/max/700/0*nZsgn53lmVES-h1H)
 
 
 
