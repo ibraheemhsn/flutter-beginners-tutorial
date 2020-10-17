@@ -202,6 +202,29 @@ use `EdgeInsets` for `padding` and `margin`
         child: Text('hello, again')
       ),
 ```
-## Lesson 11 
+## Lesson 11 Rows
+Row has array of children widgets inside : like this `children : <Widget>[//list of widgts here ]`
+
+```
+body: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        crossAxisAlignment: CrossAxisAlignment.end,
+        children: <Widget>[
+          Text('hello, world'),
+          FlatButton(
+            onPressed: () {},
+            color: Colors.amber,
+            child: Text('click me'),
+          ),
+          Container(
+            color: Colors.cyan,
+            padding: EdgeInsets.all(30.0),
+            child: Text('inside container')
+          ),
+        ],
+        ),
+```
+  
+
 
 
