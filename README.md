@@ -8,3 +8,27 @@ Each lesson in the playlist has it's own branch in this repository. To see the c
 
 **Link to playlist on YouTube**
 https://www.youtube.com/watch?v=1ukSR1GRtMU&list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ
+
+## Lesson 4
+
+
+## Lesson 5
+
+````
+void main() => runApp(MaterialApp(
+  home: Scaffold(
+    appBar: AppBar(
+      title: Text('my first app'),
+      centerTitle: true,
+    ),
+    body: Center(
+      child: Text('hello, ninjas!'),
+    ),
+    floatingActionButton: FloatingActionButton(
+      child: Text('click'),
+    ),
+  ),
+));
+````
+
+## Lesson 6
