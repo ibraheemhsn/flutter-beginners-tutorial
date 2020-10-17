@@ -259,6 +259,7 @@ body: Column(
 no code here
 ## Lesson 14 Expanded
 Expanded will be expand to take all area avliable for him.
+use `flex:2` 
 ```
 body: Row(
         children: <Widget>[
