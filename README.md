@@ -126,6 +126,7 @@ class Home extends StatelessWidget {
       ),
       body: Center(
         child: Image.asset('assets/space-3.jpg'),
+        // or NetworkImage('URL'),
       ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.red[600],
