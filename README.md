@@ -40,7 +40,21 @@ where `Scaffold` is .....
 setting up the fonts
 1. download ttf file from internet
 2. insert ttf file inside `fonts` folder
-3. update `pubspec.yaml` with font name and file name
+3. update `pubspec.yaml` with font name and file name like this :
+```
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: fonts/Raleway-Regular.ttf
+        - asset: fonts/Raleway-Italic.ttf
+          style: italic
+    - family: RobotoMono
+      fonts:
+        - asset: fonts/RobotoMono-Regular.ttf
+        - asset: fonts/RobotoMono-Bold.ttf
+          weight: 700
+```     
+
 4. cmd `pubget`
 5. refer to font `fontFamily: 'IndieFlower'`.
 
