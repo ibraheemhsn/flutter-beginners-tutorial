@@ -423,3 +423,33 @@ class _NinjaCardState extends State<NinjaCard> {
 }
 ```
 
+using 
+``setState(() {
+            variable += 1;
+          });
+``
+using `SizedBox()` to make space between widgts. 
+uising `Divider` widget.
+- use shortcut `stful` in editor to write Statefull widget.
+in summary the statefull widget written in 2 classes like this:
+```
+class NinjaCard extends StatefulWidget {
+  @override
+  _NinjaCardState createState() => _NinjaCardState();
+}
+
+class _NinjaCardState extends State<NinjaCard> {
+  // note any class with _ before his name then he class is private for this .dart file and can no be accessed from outside the file.
+  int varibale = 0;
+  int varibale2 = 3;
+  
+  @override
+  Widget build(BuildContext context) {
+  // here we override build function
+  return Scaffold (
+  // here the UI);
+  }
+  } //end of class
+```
+
+## Lesson 16 Staefull
