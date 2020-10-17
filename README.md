@@ -194,5 +194,14 @@ class Home extends StatelessWidget {
 //  ),
 ```
 
+## Lesson 10 Containers & Padding
+use `EdgeInsets` for `padding` and `margin`
+```
+ body: Padding(
+        padding: EdgeInsets.all(20.0),
+        child: Text('hello, again')
+      ),
+```
+## Lesson 11 
 
 
