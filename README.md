@@ -259,7 +259,7 @@ body: Column(
 no code here
 ## Lesson 14 Expanded
 Expanded will be expand to take all area avliable for him.
-use `flex:2` 
+use `flex:number` default =1 , just like CSS.
 ```
 body: Row(
         children: <Widget>[
@@ -291,3 +291,6 @@ body: Row(
         ],
       ),
 ```
+
+## Lesson 15 Ninja ID Project
+
