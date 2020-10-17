@@ -35,4 +35,26 @@ void main() => runApp(MaterialApp(
 ````
 where `Scaffold` is .....
 
-## Lesson 6
+## Lesson 6 Colours & Fonts
+
+setting up the fonts
+1. download ttf file from internet
+2. insert ttf file inside `fonts` folder
+3. update `pubspec.yaml` with font name and file name
+4. cmd `pubget`
+5. refer to font from name anywhere.
+
+```
+body: Center(
+      child: Text(
+        'hello, ninjas!',
+        style: TextStyle(
+          fontSize: 20.0,
+          fontWeight: FontWeight.bold,
+          letterSpacing: 2.0,
+          color: Colors.grey[600],
+          fontFamily: 'IndieFlower',
+        ),
+      ),
+    ),
+```
