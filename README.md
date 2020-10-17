@@ -9,7 +9,7 @@ Each lesson in the playlist has it's own branch in this repository. To see the c
 **Link to playlist on YouTube**
 https://www.youtube.com/watch?v=1ukSR1GRtMU&list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ
 
-** Mastering Markdown 
+**Mastering Markdown** 
 https://guides.github.com/features/mastering-markdown/
 
 ## Lesson 4
@@ -33,5 +33,6 @@ void main() => runApp(MaterialApp(
   ),
 ));
 ````
+where `Scaffold` is .....
 
 ## Lesson 6
