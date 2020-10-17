@@ -134,7 +134,8 @@ class Home extends StatelessWidget {
 ```
 
 ## Lesson 9 Buttons & Icons
-us the following widgets : `RaisedButton`, `RaisedButton.icon`, `FlatButton`, or `Icon`, use onPressed `onPressed: () {print('you clicked me');},`
+us the following widgets : `RaisedButton`, `RaisedButton.icon`, `FlatButton`, or `Icon`, 
+use onPressed with above widgets `onPressed: () {//code here;},`
 
 ```
 class Home extends StatelessWidget {
