@@ -42,7 +42,7 @@ setting up the fonts
 2. insert ttf file inside `fonts` folder
 3. update `pubspec.yaml` with font name and file name
 4. cmd `pubget`
-5. refer to font from name anywhere.
+5. refer to font `fontFamily: 'IndieFlower'`.
 
 ```
 body: Center(
