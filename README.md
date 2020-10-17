@@ -423,15 +423,15 @@ class _NinjaCardState extends State<NinjaCard> {
 }
 ```
 
-using 
+- using 
 ``setState(() {
             variable += 1;
           });
 ``
-using `SizedBox()` to make space between widgts. 
-uising `Divider` widget.
+- using `SizedBox()` to make space between widgts. 
+- uising `Divider()` widget.
 - use shortcut `stful` in editor to write Statefull widget.
-in summary the statefull widget written in 2 classes like this:
+- in summary the statefull widget written in 2 classes like this:
 ```
 class NinjaCard extends StatefulWidget {
   @override
