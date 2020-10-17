@@ -198,7 +198,7 @@ class Home extends StatelessWidget {
 use `EdgeInsets` for `padding` and `margin`
 ```
  body: Padding(
-        padding: EdgeInsets.all(20.0),
+        padding: EdgeInsets.all(20.0), // or use EdgeInsets.fromLTRB(x,x,x,x),
         child: Text('hello, again')
       ),
 ```
@@ -452,4 +452,4 @@ class _NinjaCardState extends State<NinjaCard> {
   } //end of class
 ```
 
-## Lesson 16 Staefull
+## Lesson 16 Staefull widget
