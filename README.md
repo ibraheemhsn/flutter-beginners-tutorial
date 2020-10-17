@@ -255,3 +255,38 @@ body: Column(
         ],
       ),
   ```
+## Lesson 13 Flutter Outline & Shortcuts
+no code here
+## Lesson 14 Expanded
+Expanded will be expand to take all area avliable for him.
+```
+body: Row(
+        children: <Widget>[
+          Expanded(child: Image.asset('assets/space-2.jpg')),
+          Expanded(
+            flex: 3,
+            child: Container(
+              padding: EdgeInsets.all(30.0),
+              color: Colors.cyan,
+              child: Text('1'),
+            ),
+          ),
+          Expanded(
+            flex: 2,
+            child: Container(
+              padding: EdgeInsets.all(30.0),
+              color: Colors.pinkAccent,
+              child: Text('2'),
+            ),
+          ),
+          Expanded(
+            flex: 1,
+            child: Container(
+              padding: EdgeInsets.all(30.0),
+              color: Colors.amber,
+              child: Text('3'),
+            ),
+          ),
+        ],
+      ),
+```
