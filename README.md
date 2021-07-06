@@ -453,3 +453,8 @@ class _NinjaCardState extends State<NinjaCard> {
 ```
 
 ## Lesson 16 Staefull widget
+- use shortcode 'stful'
+- statefull widget includes 2 classes, firt for widget and second for state, you define data in second class, the build method is in second class and get called everytime the state updated.
+- to disaply varibale inside string use $ sign
+'' text : Text("my age is $age")'' 
+
