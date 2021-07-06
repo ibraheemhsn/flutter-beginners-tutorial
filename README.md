@@ -453,8 +453,43 @@ class _NinjaCardState extends State<NinjaCard> {
 ```
 
 ## Lesson 16 Staefull widget
-- use shortcode 'stful'
+- use shortcode `stful`
 - statefull widget includes 2 classes, firt for widget and second for state, you define data in second class, the build method is in second class and get called everytime the state updated.
 - to disaply varibale inside string use $ sign
-'' text : Text("my age is $age")'' 
+`` text : Text("my age is $age")``
+
+## Lesson 17 Lists of data
+- 1 to define list of quotes of type String ( inside state class )
+``
+List<String> quotes = ['item1','item2','item3'];
+``
+- 2 to cycle though this list of strings inside columns, use `map` function which is defined in list object
+```
+Column(
+children : quotes.map(...function here...).toList(),
+)
+```
+- 3 what is inside ...function here.... it is function with one parameter called quote :
+```
+(quote){
+return Text(quote);
+}
+```
+- 4 you can use lambda expression instead of block function
+```
+// (){return x}
+// () => x
+```
+
+## Lesson 18 Custom Classes
+- uusing named parameters 
+```
+//normal parameters. have to be sent in same sequence
+myMethod(int x, String y)
+myMethod (xx, yy)
+
+//named parameters, optional and have to be sent with name
+myMethod({int x, @required String y, int z})
+myMethod (y:yy, x: xx)
+```
 
