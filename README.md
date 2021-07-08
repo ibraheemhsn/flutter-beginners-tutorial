@@ -482,7 +482,7 @@ return Text(quote);
 ```
 
 ## Lesson 18 Custom Classes
-- uusing named parameters 
+- using named parameters 
 ```
 //normal parameters. have to be sent in same sequence
 myMethod(int x, String y)
@@ -492,4 +492,47 @@ myMethod (xx, yy)
 myMethod({int x, @required String y, int z})
 myMethod (y:yy, x: xx)
 ```
+- we can create class for quotes for hold data. quote includes text and author
+
+```
+class Quote {
+
+  String text;
+  String author;
+
+  //  normal constructor, as we've already seen
+
+  //  Quote(String author, String text){
+  //    this.text = text;
+  //    this.author = author;
+  //  }
+
+  //  constructor with named parameters
+
+  //  Quote({ String author, String text }){
+  //    this.text = text;
+  //    this.author = author;
+  //  }
+
+  // constructor with named parameters
+  // & automatically assigns named arguments to class properties
+
+  Quote({ this.text, this.author });
+
+}
+```
+- we call instansitate the class object using the constructure with named parameters. here we created List "quotes" which is of type <Quote>, so each item in the list is quote object.
+```
+List<Quote> quotes = [
+    Quote(author: 'Oscar Wilde', text: 'Be yourself; everyone else is already taken'),
+    Quote(author: 'Oscar Wilde', text: 'I have nothing to declare except my genius'),
+    Quote(author: 'Oscar Wilde', text: 'The truth is rarely pure and never simple')
+  ];
+```
+- to display the quote inside Text, call their parameters with $ sign
+```
+  Text('${quote.text} - ${quote.author}')
+```
+
+## Lesson 18 Custom Classes
 
