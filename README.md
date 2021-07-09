@@ -578,4 +578,19 @@ Widget quoteTemplate(quote) {
 children: quotes.map((quote) => quoteTemplate(quote)).toList(),
 ```
 
+## Lesson 20 Extracting Widgets
+- move the Widget to class in separate file, extends StatelessWidget, define parameter and consructure. call this object from anywhere. 
+  
+```
+  class QuoteCard extends StatelessWidget {
 
+  final Quote quote;
+  QuoteCard({ this.quote });
+
+  @override
+  Widget build(BuildContext context) {
+    return Card( 
+  // widget tree for card here 
+  )
+  }
+  }
