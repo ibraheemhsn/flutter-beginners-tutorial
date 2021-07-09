@@ -534,13 +534,10 @@ List<Quote> quotes = [
   Text('${quote.text} - ${quote.author}')
 ```
 
-## Lesson 18 Custom Classes
 ## Lesson 19 cards
   
-  # Youtube link here
+Youtube link here
 https://www.youtube.com/watch?v=XIxahpXU_QE
-
-## Cards
 
 - 1. create widget named quoteTemplate inside state class. with one parameter "quote"
 ```
@@ -579,7 +576,7 @@ children: quotes.map((quote) => quoteTemplate(quote)).toList(),
 ```
 
 ## Lesson 20 Extracting Widgets
-- move the Widget to class in separate file, extends StatelessWidget, define parameter and consructure. call this object from anywhere. 
+- move the Widget to class in separate file, extends StatelessWidget, define parameter and consructure. override build method. call this object from anywhere. 
   
 ```
   class QuoteCard extends StatelessWidget {
