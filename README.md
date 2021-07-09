@@ -576,7 +576,8 @@ children: quotes.map((quote) => quoteTemplate(quote)).toList(),
 ```
 
 ## Lesson 20 Extracting Widgets
-- move the Widget to class in separate file, extends StatelessWidget, define parameter and consructure. override build method. call this object from anywhere. (from Android studio click on Extract Widget, this will create the class)
+- move the Widget to class in separate file, extends StatelessWidget, define parameter and consructure. override build method. call this object from anywhere. (from Android studio click on Extract Widget, this will create the class).
+- now we have class file for data and class file for view (template)
   
 ```
   class QuoteCard extends StatelessWidget {
