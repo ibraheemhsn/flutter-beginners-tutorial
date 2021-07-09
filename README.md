@@ -576,8 +576,14 @@ children: quotes.map((quote) => quoteTemplate(quote)).toList(),
 ```
 
 ## Lesson 20 Extracting Widgets
-- move the Widget to class in separate file, extends StatelessWidget, define parameter and consructure. override build method. call this object from anywhere. (from Android studio click on Extract Widget, this will create the class).
-- now we have class file for data and class file for view (template)
+- move the Widget to class in separate file, extends StatelessWidget, (from Android studio click on Extract Widget, this will create the class).
+  define final parameter and constructure. 
+  override build method. 
+  call this object from anywhere. 
+- now we have : 
+  1. main file main.dart
+  2. class file for data modal quote.dart
+  3. class file for view/template quoteCard.dart
   
 ```
   class QuoteCard extends StatelessWidget {
@@ -589,6 +595,8 @@ children: quotes.map((quote) => quoteTemplate(quote)).toList(),
   Widget build(BuildContext context) {
     return Card( 
   // widget tree for card here 
-  )
-  }
-  }
+  )   }   }
+```
+  
+## Lesson 21 Functions as Parameters
+  
